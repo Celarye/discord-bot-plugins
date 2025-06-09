@@ -1,0 +1,30 @@
+{
+  "name": "Todo",
+  "version": "0.1.0",
+  "compatible-bot-version": 0.1,
+  "description": "A todo list tracker.",
+  "dependencies": [],
+  "authors": [
+    "Eduard Smet <contact@celarye.dev>"
+  ],
+  "license": "GPLv3",
+  "release-time": "2026-06-16T20:00:00Z",
+  "homepage": "https://github.com/celarye/discord-bot-plugins-src",
+  "documentation": "https://github.com/celarye/discord-bot-plugins-src/blob/master/README.md",
+  "repository": "https://github.com/Celarye/discord-bot-plugins-src",
+  "environment": {},
+  "settings": {
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "Settings JSON Schema",
+    "type": "object",
+    "properties": {
+      "shared-lists": {
+        "type": "boolean",
+        "default": true
+      }
+    },
+    "required": [
+      "shared-lists"
+    ]
+  }
+}
